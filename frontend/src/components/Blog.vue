@@ -30,7 +30,7 @@
                 <v-card-sub-title>
                     postId List
                 </v-card-sub-title>
-                <li v-for="(id, index) in value.postId" :key="index">{{ id }}</li>
+                <li v-for="(id, index) in value.postId" :key="index">{{ id.postName }}</li>
             </v-card>
         </div>
         <v-row class="ma-0 pa-0">
