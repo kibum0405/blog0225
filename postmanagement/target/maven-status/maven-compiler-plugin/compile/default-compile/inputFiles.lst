@@ -1,0 +1,9 @@
+/Users/kibumpark/Desktop/blog0225/postmanagement/src/main/java/blog/infra/PostController.java
+/Users/kibumpark/Desktop/blog0225/postmanagement/src/main/java/blog/infra/AbstractEvent.java
+/Users/kibumpark/Desktop/blog0225/postmanagement/src/main/java/blog/domain/PostRepository.java
+/Users/kibumpark/Desktop/blog0225/postmanagement/src/main/java/blog/infra/PostHateoasProcessor.java
+/Users/kibumpark/Desktop/blog0225/postmanagement/src/main/java/blog/infra/PolicyHandler.java
+/Users/kibumpark/Desktop/blog0225/postmanagement/src/main/java/blog/domain/PostId.java
+/Users/kibumpark/Desktop/blog0225/postmanagement/src/main/java/blog/domain/Post.java
+/Users/kibumpark/Desktop/blog0225/postmanagement/src/main/java/blog/PostmanagementApplication.java
+/Users/kibumpark/Desktop/blog0225/postmanagement/src/main/java/blog/config/kafka/KafkaProcessor.java
