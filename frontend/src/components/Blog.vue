@@ -15,6 +15,24 @@
             <StringDetailGrid label="VisitName" offline v-model="value.visitName" :editMode="editMode" @change="change"/>
         </div>
         <v-divider class="border-opacity-50 my-divider my-2"></v-divider>
+        <div variant="outlined" class="my-2">
+            <PostId v-model="postIdInput"
+                offline
+                label="postId"
+                :editMode="editMode"
+                @change="change"
+            />
+            
+            <v-row class="ma-0 pa-0 mt-2">
+                <v-spacer></v-spacer>
+                <v-btn @click="addPostIdList">PostId 추가</v-btn>
+            </v-row>
+            <!-- PostId 리스트 표시 -->
+            <v-card v-if="value.postId.length > 0" variant="outlined" class="pa-4 mt-2">
+                <v-card-sub-title>게시물 ID List</v-card-sub-title>
+                <li v-for="(id, index) in value.postId" :key="index">{{ id.postName }}</li>
+            </v-card>
+        </div>
         <v-row class="ma-0 pa-0">
             <v-spacer></v-spacer>
             <v-btn
