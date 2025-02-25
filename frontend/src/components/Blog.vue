@@ -22,15 +22,15 @@
                 :editMode="editMode"
                 @change="change"
             />
-            
             <v-row class="ma-0 pa-0 mt-2">
                 <v-spacer></v-spacer>
-                <v-btn @click="addPostIdList">PostId 추가</v-btn>
+                <v-btn @click="addPostIdList">postId Add</v-btn>
             </v-row>
-            <!-- PostId 리스트 표시 -->
             <v-card v-if="value.postId.length > 0" variant="outlined" class="pa-4 mt-2">
-                <v-card-sub-title>게시물 ID List</v-card-sub-title>
-                <li v-for="(id, index) in value.postId" :key="index">{{ id.postName }}</li>
+                <v-card-sub-title>
+                    postId List
+                </v-card-sub-title>
+                <li v-for="(id, index) in value.postId" :key="index">{{ id }}</li>
             </v-card>
         </div>
         <v-row class="ma-0 pa-0">
