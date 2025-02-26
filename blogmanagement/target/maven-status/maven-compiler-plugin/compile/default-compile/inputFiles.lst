@@ -1,0 +1,17 @@
+/Users/kibumpark/Desktop/blog0225/blogmanagement/src/main/java/blog/infra/BlogReadModelViewHandler.java
+/Users/kibumpark/Desktop/blog0225/blogmanagement/src/main/java/blog/infra/BlogReadViewHandler.java
+/Users/kibumpark/Desktop/blog0225/blogmanagement/src/main/java/blog/infra/BlogReadRepository.java
+/Users/kibumpark/Desktop/blog0225/blogmanagement/src/main/java/blog/infra/AbstractEvent.java
+/Users/kibumpark/Desktop/blog0225/blogmanagement/src/main/java/blog/BlogmanagementApplication.java
+/Users/kibumpark/Desktop/blog0225/blogmanagement/src/main/java/blog/infra/BlogReadModelRepository.java
+/Users/kibumpark/Desktop/blog0225/blogmanagement/src/main/java/blog/infra/BlogController.java
+/Users/kibumpark/Desktop/blog0225/blogmanagement/src/main/java/blog/domain/PostId.java
+/Users/kibumpark/Desktop/blog0225/blogmanagement/src/main/java/blog/domain/BlogRead.java
+/Users/kibumpark/Desktop/blog0225/blogmanagement/src/main/java/blog/domain/BlogRegistered.java
+/Users/kibumpark/Desktop/blog0225/blogmanagement/src/main/java/blog/domain/BlogRepository.java
+/Users/kibumpark/Desktop/blog0225/blogmanagement/src/main/java/blog/domain/BlogReadModel.java
+/Users/kibumpark/Desktop/blog0225/blogmanagement/src/main/java/blog/infra/PolicyHandler.java
+/Users/kibumpark/Desktop/blog0225/blogmanagement/src/main/java/blog/domain/BlogAddedCommand.java
+/Users/kibumpark/Desktop/blog0225/blogmanagement/src/main/java/blog/domain/Blog.java
+/Users/kibumpark/Desktop/blog0225/blogmanagement/src/main/java/blog/infra/BlogHateoasProcessor.java
+/Users/kibumpark/Desktop/blog0225/blogmanagement/src/main/java/blog/config/kafka/KafkaProcessor.java
